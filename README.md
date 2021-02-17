@@ -18,6 +18,8 @@ docker run --rm -p 80:80 test-server
 
 ## Example
 
+Test the APIs by using postman or curl.
+
 
 ```bash
 curl -sS -X GET -k "http://localhost:80/latestprice"
