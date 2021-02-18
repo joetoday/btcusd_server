@@ -116,8 +116,8 @@ func main() {
 		}
 	}()
 
-	port := ":8080" // localhost
-	// port := ":80" // dockerhost
+	// port := ":8080" // localhost
+	port := ":80" // dockerhost
 	fmt.Println("Serving on " + port)
 	http.ListenAndServe(port, r)
 }
